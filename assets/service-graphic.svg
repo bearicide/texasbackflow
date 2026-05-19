@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Texas Backflow Inspection Service Graphic</title>
+<desc id="desc">Professional Texas Backflow Inspection graphic with plumbing, shield, and water protection theme.</desc>
+<defs>
+<linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#07101d"/><stop offset=".55" stop-color="#10284a"/><stop offset="1" stop-color="#07101d"/></linearGradient>
+<linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#f0c15c"/><stop offset="1" stop-color="#b97819"/></linearGradient>
+<linearGradient id="blue" x1="0" x2="1"><stop offset="0" stop-color="#57a0ff"/><stop offset="1" stop-color="#174baf"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="800" rx="42" fill="url(#bg)"/>
+<path d="M0 96h1200" stroke="#b7352f" stroke-width="14" opacity=".9"/>
+<path d="M0 126h1200" stroke="#f5f7fb" stroke-width="6" opacity=".65"/>
+<path d="M0 146h1200" stroke="#1f6dff" stroke-width="14" opacity=".9"/>
+<circle cx="915" cy="410" r="220" fill="none" stroke="#1f6dff" stroke-width="18" opacity=".35"/>
+<circle cx="915" cy="410" r="165" fill="none" stroke="#d89b2b" stroke-width="10" opacity=".55"/>
+<path d="M915 190l170 72v137c0 125-74 218-170 265-96-47-170-140-170-265V262z" fill="rgba(255,255,255,.06)" stroke="url(#gold)" stroke-width="14" filter="url(#glow)"/>
+<path d="M850 414l48 48 104-124" fill="none" stroke="#f5f7fb" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+<g opacity=".95">
+<path d="M120 500h410c58 0 104-47 104-104v-52" fill="none" stroke="url(#blue)" stroke-width="46" stroke-linecap="round"/>
+<path d="M128 500h240" stroke="#f0c15c" stroke-width="16" stroke-linecap="round" opacity=".85"/>
+<path d="M600 344h158" stroke="#f0c15c" stroke-width="46" stroke-linecap="round"/>
+<circle cx="603" cy="344" r="54" fill="#0b1627" stroke="#f0c15c" stroke-width="18"/>
+<path d="M572 344h62" stroke="#f5f7fb" stroke-width="16" stroke-linecap="round"/>
+</g>
+<text x="82" y="255" fill="#ffffff" font-size="72" font-family="Arial Black,Arial,sans-serif" font-weight="900">TEXAS BACKFLOW</text>
+<text x="86" y="325" fill="#d89b2b" font-size="38" font-family="Arial,Helvetica,sans-serif" font-weight="900" letter-spacing="4">INSPECTION</text>
+<text x="86" y="395" fill="#d7e4ff" font-size="28" font-family="Arial,Helvetica,sans-serif">Backflow testing • Preventer testing • Compliance support</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="900" fill="#f5f7fb">
+<rect x="82" y="590" width="250" height="54" rx="27" fill="#1f6dff"/>
+<text x="112" y="626">LICENSED</text>
+<rect x="350" y="590" width="250" height="54" rx="27" fill="#b7352f"/>
+<text x="380" y="626">INSURED</text>
+<rect x="618" y="590" width="250" height="54" rx="27" fill="#d89b2b"/>
+<text x="648" y="626" fill="#07101d">RELIABLE</text>
+</g>
+<text x="82" y="720" fill="#8fa8d6" font-size="24" font-family="Arial,Helvetica,sans-serif">Protecting Texas. Protecting You.</text>
+</svg>
