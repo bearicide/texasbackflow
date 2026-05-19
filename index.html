@@ -4,74 +4,27 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Texas Backflow Inspection</title>
-<meta name="description" content="Professional backflow inspection and testing services in Texas." />
+<meta name="description" content="Professional backflow inspection and backflow preventer testing services in Texas." />
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#09111b;color:#f5f7fb;line-height:1.6}
-header{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:#0d1a2b;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0}
-header h1{font-size:1.2rem;color:#fff}
-nav a{color:#d7e4ff;text-decoration:none;margin-left:18px;font-weight:bold}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:70px 40px;max-width:1300px;margin:auto}
-.hero h2{font-size:clamp(2.6rem,6vw,5rem);line-height:1.05;margin-bottom:18px}
-.hero p{font-size:1.1rem;color:#cad6ec;margin-bottom:24px}
-.hero img{width:100%;border-radius:20px;box-shadow:0 0 40px rgba(0,120,255,.25)}
-.btns{display:flex;gap:14px;flex-wrap:wrap}
-.btn{padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:bold}
-.primary{background:#1f6dff;color:#fff}
-.secondary{border:1px solid rgba(255,255,255,.2);color:#fff}
-.section{padding:60px 40px;max-width:1200px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:30px}
-.card{background:#111d30;padding:24px;border-radius:20px;border:1px solid rgba(255,255,255,.08)}
-.card h3{margin-bottom:12px;color:#fff}
-footer{padding:30px;text-align:center;color:#8fa8d6;border-top:1px solid rgba(255,255,255,.08)}
-footer a{color:#7bc3ff;text-decoration:none}
-@media(max-width:900px){.hero{grid-template-columns:1fr;padding:50px 24px}header{flex-direction:column;gap:12px;padding:18px}.section{padding:50px 24px}}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:#09111b;color:#f5f7fb;line-height:1.6}header{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:#0d1a2b;border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:5}header h1{font-size:1.2rem;color:#fff;text-transform:uppercase;letter-spacing:.04em}nav a{color:#d7e4ff;text-decoration:none;margin-left:18px;font-weight:bold}.hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:70px 40px;max-width:1300px;margin:auto}.hero h2{font-size:clamp(2.6rem,6vw,5rem);line-height:1.05;margin-bottom:18px;text-transform:uppercase}.hero p{font-size:1.1rem;color:#cad6ec;margin-bottom:24px}.hero img{width:100%;border-radius:20px;box-shadow:0 0 40px rgba(0,120,255,.25)}.btns{display:flex;gap:14px;flex-wrap:wrap}.btn{padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:bold}.primary{background:#1f6dff;color:#fff}.secondary{border:1px solid rgba(255,255,255,.2);color:#fff}.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:1200px;margin:auto;padding:20px 40px}.trust div{background:#111d30;border-left:4px solid #d89b2b;border-radius:16px;padding:16px}.trust strong{display:block;text-transform:uppercase}.trust span{display:block;color:#cad6ec;font-size:.9rem}.section{padding:60px 40px;max-width:1200px;margin:auto}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:30px}.card{background:#111d30;padding:24px;border-radius:20px;border:1px solid rgba(255,255,255,.08)}.card h3{margin-bottom:12px;color:#fff;text-transform:uppercase}.contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}.panel{background:#111d30;border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:24px}.field{display:block;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px;margin-top:12px;color:#d7e4ff}.mini-logo{width:90px;margin-bottom:14px}footer{padding:30px;text-align:center;color:#8fa8d6;border-top:1px solid rgba(255,255,255,.08)}footer a{color:#7bc3ff;text-decoration:none}@media(max-width:900px){.hero,.contact{grid-template-columns:1fr;padding:50px 24px}header{flex-direction:column;gap:12px;padding:18px}.section{padding:50px 24px}.trust{grid-template-columns:1fr 1fr;padding:20px 24px}}@media(max-width:560px){.trust{grid-template-columns:1fr}.btn{width:100%;text-align:center}}
 </style>
 </head>
 <body>
 <header>
 <h1>Texas Backflow Inspection</h1>
-<nav>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
-</nav>
+<nav><a href="#services">Services</a><a href="#contact">Contact</a></nav>
 </header>
 <section class="hero">
 <div>
 <h2>Professional backflow testing for homes and businesses.</h2>
 <p>Reliable inspection support, clean documentation, and straightforward service across Texas.</p>
-<div class="btns">
-<a class="btn primary" href="#contact">Request Service</a>
-<a class="btn secondary" href="#services">View Services</a>
+<div class="btns"><a class="btn primary" href="#contact">Request Service</a><a class="btn secondary" href="#services">View Services</a></div>
 </div>
-</div>
-<div>
-<img src="https://raw.githubusercontent.com/bearicide/texasbackflow/main/assets/service-graphic.png" alt="Texas Backflow Service Graphic" />
-</div>
+<div><img src="assets/service-graphic.svg" alt="Texas Backflow Service Graphic" /></div>
 </section>
-<section id="services" class="section">
-<h2>Services</h2>
-<div class="cards">
-<div class="card">
-<h3>Annual Backflow Testing</h3>
-<p>Routine inspection and testing for residential and commercial systems.</p>
-</div>
-<div class="card">
-<h3>Compliance Documentation</h3>
-<p>Clear paperwork and reporting support for local requirements.</p>
-</div>
-<div class="card">
-<h3>Fast Scheduling</h3>
-<p>Simple scheduling and dependable communication without the runaround.</p>
-</div>
-</div>
-</section>
-<section id="contact" class="section">
-<h2>Contact</h2>
-<p>Email and service request information can be added here.</p>
-</section>
-<footer>
-<p>Texas Backflow Inspection • Built by <a href="https://bearicide.github.io">MATTBEAR</a></p>
-</footer>
+<section class="trust"><div><strong>Licensed and Insured</strong><span>Ready for final credential verification.</span></div><div><strong>Expert Testers</strong><span>Certified and experienced service language.</span></div><div><strong>Fast and Reliable</strong><span>Clear scheduling and communication.</span></div><div><strong>Proudly Texas</strong><span>Professional local service tone.</span></div></section>
+<section id="services" class="section"><h2>Services</h2><div class="cards"><div class="card"><h3>Annual Backflow Testing</h3><p>Routine inspection and testing for residential and commercial systems.</p></div><div class="card"><h3>Backflow Preventer Testing</h3><p>Professional testing support for backflow prevention assemblies.</p></div><div class="card"><h3>Compliance Documentation</h3><p>Clear paperwork and reporting support for local requirements.</p></div><div class="card"><h3>Fast Scheduling</h3><p>Simple scheduling and dependable communication without the runaround.</p></div></div></section>
+<section id="contact" class="section contact"><div class="panel"><img class="mini-logo" src="assets/texas-backflow-badge.svg" alt="Texas Backflow badge" /><h2>Contact</h2><p class="field"><strong>Phone:</strong> Add verified company phone</p><p class="field"><strong>Email:</strong> Add verified company email</p><p class="field"><strong>Service Area:</strong> Texas</p><p class="field"><strong>Facebook:</strong> Add company page link</p></div><div class="panel"><h2>Inspection Request</h2><p class="field">Name</p><p class="field">Phone</p><p class="field">Email</p><p class="field">Property type / notes</p><p style="margin-top:16px;color:#9fb1d5">Static first-pass form block. Ready to connect to a real form backend when contact details are confirmed.</p></div></section>
+<footer><p>Texas Backflow Inspection • Built by <a href="https://bearicide.github.io">MATTBEAR</a></p></footer>
 </body>
 </html>
