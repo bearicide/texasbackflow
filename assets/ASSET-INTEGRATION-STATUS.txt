@@ -1,0 +1,14 @@
+Integrated asset targets for live homepage rebuild:
+
+hero-banner.png
+valve-photo.png
+texas-strong-panel.png
+protect-panel.png
+icon-row.png
+blueprint-bg.png
+dark-texture.png
+blue-texture.png
+concrete-texture.png
+vertical-ad.png
+
+Next deployment pass rewires homepage sections to these uploaded assets and replaces placeholder layout structure.
